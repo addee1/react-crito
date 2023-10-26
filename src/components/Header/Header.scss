@@ -1,0 +1,146 @@
+// CSS - header //
+header{
+    padding: 16px;
+    background-color: #f0efe9;
+    
+
+    .container{
+        display:flex;
+        gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .logo{
+            cursor: pointer;
+        }
+        
+
+        .menu-bars{  // meny knapp mindre skärmar
+            font-size: 25px;
+            border:none;
+            background-color: transparent;
+
+
+            @media (min-width: 992px){
+                display: none;
+            }
+        }
+
+
+        .menu{
+            display:none;
+            flex: 1;
+            
+
+            @media (min-width: 992px){
+                display: block;
+                
+            }
+
+
+            .top-menu{
+                display:flex;
+                justify-content: flex-end;
+                font-size: 15px;
+                border-bottom: 1px solid #DAD9D3;
+                padding-bottom: 5px;
+                align-items: center;
+
+
+                @media (min-width: 1200px) {
+                    justify-content: space-between;
+                    
+                }
+                
+                
+                .contact-information{
+                    display: none;
+                    align-items: center;
+
+
+                    @media (min-width: 1200px) {
+                        display: flex;
+                        
+                    }
+
+
+                    .content-box{
+                        margin-right: 30px;
+                        padding-right: 30px;
+                        border-right: 1px solid #DAD9D3;
+                        font-family: "Inter", sans-serif;
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: #191919;
+
+
+                        i{
+                            margin-right: 5px;
+                            font-size: 1.2em;
+                            color: #191919;
+                        
+                        }
+
+
+                        &.last{
+                            border: none;
+                        }
+                    }
+                }
+              
+                
+                .social-media{
+                    
+
+                    i{
+                        margin-left: 10px;
+                        color: #191919;
+                        font-size: 1.2em;
+                    
+
+                        &:hover{
+                            color:#807e7e;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+            
+
+            .main-menu{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 20px;
+               
+
+                nav{
+
+
+                    a{
+                        color: #191919;
+                        text-decoration: none;
+                        margin-right: 35px;
+                        font-family: "Inter", sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+
+
+                        &.active{
+                            font-weight: 500;
+                        }
+
+
+                        &:hover{
+                            text-decoration: underline;
+                            transition: 0.5s;
+                            color:#807e7e;
+                           
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}

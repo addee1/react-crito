@@ -1,0 +1,29 @@
+// CSS - loggor //
+.company-logos{
+    background-color: #FFFFFF;
+    
+
+    .container{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 70px 100px;
+
+
+        @media (min-width: 390px) {
+            display: none;
+            
+        }
+
+
+        @media (min-width: 1200px) {
+            display: flex;
+            
+        }
+
+
+        img{
+            height: 30px;
+        }
+    }
+}

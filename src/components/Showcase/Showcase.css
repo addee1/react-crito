@@ -1,0 +1,99 @@
+.showcase {
+  background-color: #f0efe9;
+  position: relative;
+}
+.showcase .line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (min-width: 390px) {
+  .showcase .line {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .showcase .line {
+    display: block;
+  }
+}
+.showcase .container {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 390px) {
+  .showcase .container {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .showcase .container {
+    padding-bottom: 0;
+  }
+}
+.showcase .container .content h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+@media (min-width: 390px) {
+  .showcase .container .content h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .showcase .container .content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: left;
+  }
+}
+.showcase .container .content p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #5A5957;
+  margin-bottom: 50px;
+}
+@media (min-width: 390px) {
+  .showcase .container .content p {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .showcase .container .content p {
+    text-align: left;
+  }
+}
+.showcase .container .content .btn-trans {
+  background-color: none;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none !important;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.showcase .container .content .btn-trans i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.showcase .container .content .btn-trans:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  transition: 0.3s;
+  color: white;
+}
+.showcase .container img {
+  margin-right: -50px;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .showcase .container img {
+    display: block;
+  }
+}

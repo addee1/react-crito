@@ -1,0 +1,22 @@
+.company-logos {
+  background-color: #FFFFFF;
+}
+.company-logos .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 100px;
+}
+@media (min-width: 390px) {
+  .company-logos .container {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .company-logos .container {
+    display: flex;
+  }
+}
+.company-logos .container img {
+  height: 30px;
+}

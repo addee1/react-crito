@@ -1,0 +1,199 @@
+// CSS - services //
+.services{
+    background-color: #F0EFE9;
+    margin-top: 130px;
+    position: relative;
+
+
+    img{
+        position: absolute;
+        right: 0;
+        bottom:0;
+
+
+        @media (min-width: 390px) {
+            display: none;
+      
+        }
+    
+
+        @media (min-width: 1200px) {
+            display: block;
+            
+        }
+    }
+
+
+    .container{
+        background-color: #F0EFE9;
+        padding-top: 70px;
+        padding-bottom: 130px;
+
+
+        @media (min-width: 390px) {
+            padding-top: 70px;
+      
+        }
+    
+
+        @media (min-width: 1200px) {
+            padding-top: 130px;
+            
+        }
+        
+
+        h2{
+            color:#F94D1C;
+            font-size: 18px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            margin-bottom: 30px;
+
+        }
+
+
+        h1{
+            font-family: 'DM Sans', sans-serif;
+            font-size: 45px;
+            font-weight: 700;
+            padding-bottom: 30px;
+
+
+            @media (min-width: 390px) {
+                font-size: 32px;
+            }
+        
+
+            @media (min-width: 1200px) {
+                font-size: 45px;
+            }
+        }
+
+
+        .column{
+            display: flex;
+            gap: 30px;
+
+
+            @media (min-width: 390px) {
+                display:block;
+    
+            }
+
+
+            @media (min-width: 1200px) {
+                display:flex;
+            
+            }
+
+
+            .box{
+                background-color: white;
+                padding: 60px 20px;
+                padding-bottom: 40px;
+
+
+                @media (min-width: 390px) {
+                    border: 1px solid black;
+                    padding-bottom: 90px;
+              
+                }
+    
+
+                @media (min-width: 1200px) {
+                    border:none;
+                    padding-bottom: 40px;
+              
+                }
+
+                
+                &:hover{
+                    background-color: #F9D783;
+                    transition: 0.3s;
+
+                }
+                
+                
+                h2{
+                    color:#191919;
+                    font-family: "DM Sans",sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                
+                }
+    
+
+                p{
+                    font-family: "Inter",sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color:#5E5E5E;
+                    
+                }
+    
+
+                button{
+                    float:right;
+                    border-radius: 100px;
+                    height: 56px;
+                    width: 56px;
+                    color:white;
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    margin-top: 10px;
+
+
+                    @media (min-width: 390px) {
+                        height: 60px;
+                        width: 60px;
+                    }
+        
+
+                    @media (min-width: 1200px) {
+                        height: 56px;
+                        width: 56px;
+                    }
+
+
+                    &:hover{
+                        background-color: white;
+                        border: 1px solid white;
+                        color: #191919;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+
+
+        .btn-services-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            
+            
+            .btn-services{
+                color: #191919;
+                padding: 12px 50px;
+                background-color:transparent;
+                border: 1px solid #191919;
+                border-radius: 30px;
+                text-decoration: none;
+                
+
+                i{
+                    padding-left: 10px;
+                }
+
+
+                &:hover{
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color:white;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

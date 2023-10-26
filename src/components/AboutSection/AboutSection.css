@@ -1,0 +1,165 @@
+.about-company {
+  background-color: rgb(255, 255, 255);
+  padding-top: 120px;
+}
+@media (min-width: 390px) {
+  .about-company {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company {
+    padding-top: 120px;
+  }
+}
+.about-company .container {
+  display: flex;
+}
+@media (min-width: 390px) {
+  .about-company .container {
+    display: block;
+    align-items: center;
+    vertical-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container {
+    display: flex;
+  }
+}
+.about-company .container .content-image {
+  background-color: rgb(192, 188, 188);
+  margin-left: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+@media (min-width: 390px) {
+  .about-company .container .content-image {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container .content-image {
+    margin-left: 50px;
+  }
+}
+.about-company .container .content-image .blue-box {
+  background-color: #BEEBFF;
+  height: 180px;
+  width: 365px;
+  position: absolute;
+  top: 400px;
+  left: -50px;
+  padding-top: 30px;
+  padding-lefT: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+}
+@media (min-width: 390px) {
+  .about-company .container .content-image .blue-box {
+    top: 400px;
+    left: 0px;
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container .content-image .blue-box {
+    height: 180px;
+    width: 365px;
+    position: absolute;
+    left: -50px;
+  }
+}
+.about-company .container .content-image .blue-box h2 {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.about-company .container .content-image .blue-box p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.about-company .container .content-image img {
+  height: 100%;
+}
+@media (min-width: 390px) {
+  .about-company .container .content-image img {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container .content-image img {
+    height: 100%;
+  }
+}
+.about-company .container .content-about {
+  margin-left: 150px;
+}
+@media (min-width: 390px) {
+  .about-company .container .content-about {
+    padding-top: 260px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container .content-about {
+    margin-left: 150px;
+    padding-top: 0;
+  }
+}
+.about-company .container .content-about h2 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.about-company .container .content-about h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.about-company .container .content-about p {
+  color: #5E5E5E;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.about-company .container .content-about .button-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.about-company .container .content-about .button-content .btn-about {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+}
+.about-company .container .content-about .button-content .btn-about i {
+  padding-left: 10px;
+}
+.about-company .container .content-about .button-content .btn-about:hover {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  transition: 0.3s;
+}
+.about-company .container .content-about .button-content img {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.about-company .container .content-about .button-content h3 {
+  color: #191919;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}

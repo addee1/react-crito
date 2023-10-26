@@ -1,0 +1,127 @@
+.project {
+  padding-top: 130px;
+}
+.project .container h2 {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.project .container h1 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+.project .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 100px;
+}
+@media (min-width: 390px) {
+  .project .container .content {
+    display: block;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .project .container .content {
+    display: grid;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 390px) {
+  .project .container .content img {
+    height: 175px;
+  }
+}
+@media (min-width: 1200px) {
+  .project .container .content img {
+    height: 260px;
+  }
+}
+@media (min-width: 390px) {
+  .project .container .content .project-box-1 {
+    margin-bottom: 150px;
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .project .container .content .project-box-1 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+.project .container .content .project-box-1 p {
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.project .container .content .project-box-1 .project-button {
+  border-top: 2px solid #E7E7E7;
+}
+.project .container .content .project-box-1 .project-button .btn-read-more {
+  color: #191919;
+  float: right;
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+@media (min-width: 390px) {
+  .project .container .content .project-box-1 .project-button .btn-read-more {
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .project .container .content .project-box-1 .project-button .btn-read-more {
+    float: right;
+  }
+}
+.project .container .content .project-box-1 .project-button .btn-read-more i {
+  margin-left: 10px;
+}
+.project .container .content .project-box-1 .project-button .btn-read-more:hover {
+  color: #5A5957;
+  text-decoration: underline;
+}
+.project .container .all-projects-button {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (min-width: 390px) {
+  .project .container .all-projects-button {
+    padding-top: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .project .container .all-projects-button {
+    padding-top: 100px;
+  }
+}
+.project .container .all-projects-button .btn-all-recent-projects {
+  background-color: #191919;
+  border: 1px solid #191919;
+  padding: 14px 25px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+.project .container .all-projects-button .btn-all-recent-projects i {
+  margin-left: 10px;
+}
+.project .container .all-projects-button .btn-all-recent-projects:hover {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  transition: 0.3s;
+}

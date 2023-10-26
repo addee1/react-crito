@@ -1,0 +1,291 @@
+.meet-our-team {
+  background-color: #F0D082;
+  padding-bottom: 200px;
+}
+@media (min-width: 390px) {
+  .meet-our-team {
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team {
+    padding-bottom: 200px;
+  }
+}
+.meet-our-team .container {
+  padding-top: 100px;
+}
+.meet-our-team .container .content-meet-our-team .dots {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .dots {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .dots {
+    display: flex;
+  }
+}
+.meet-our-team .container .content-meet-our-team h2 {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team h2 {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team h2 {
+    text-align: left;
+  }
+}
+.meet-our-team .container .content-meet-our-team .content2-meet-our-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .content2-meet-our-team {
+    display: block;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .content2-meet-our-team {
+    display: flex;
+    text-align: left;
+  }
+}
+.meet-our-team .container .content-meet-our-team .content2-meet-our-team h1 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .content2-meet-our-team h1 {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .content2-meet-our-team h1 {
+    padding-bottom: 0;
+  }
+}
+.meet-our-team .container .content-meet-our-team .content2-meet-our-team .btn-browse-team {
+  padding: 12px 35px;
+  background-color: #F9D783;
+  border: 1px solid #191919;
+  text-decoration: none;
+  color: #191919;
+  border-radius: 30px;
+}
+.meet-our-team .container .content-meet-our-team .content2-meet-our-team .btn-browse-team i {
+  margin-left: 10px;
+}
+.meet-our-team .container .content-meet-our-team .content2-meet-our-team .btn-browse-team:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  transition: 0.3s;
+}
+.meet-our-team .container .content-meet-our-team .team {
+  padding-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .team {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .team {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.meet-our-team .container .content-meet-our-team .team .team-1 img {
+  height: 360px;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .team .team-1 img {
+    height: 460px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .team .team-1 img {
+    height: 360px;
+  }
+}
+.meet-our-team .container .content-meet-our-team .team .team-1 h2 {
+  color: #191919;
+  margin-top: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.meet-our-team .container .content-meet-our-team .team .team-1 p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #595039;
+}
+@media (min-width: 390px) {
+  .meet-our-team .container .content-meet-our-team .team .team-1 p {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .content-meet-our-team .team .team-1 p {
+    text-align: left;
+  }
+}
+.meet-our-team .reviews {
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 100px;
+}
+@media (min-width: 390px) {
+  .meet-our-team .reviews {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .reviews {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+.meet-our-team .reviews .content {
+  padding-top: 100px;
+  text-align: center;
+}
+.meet-our-team .reviews .content h2 {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.meet-our-team .reviews .content h1 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.meet-our-team .reviews .testimonial {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  background-color: white;
+}
+@media (min-width: 390px) {
+  .meet-our-team .reviews .testimonial {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .reviews .testimonial {
+    display: flex;
+    justify-content: center;
+  }
+}
+.meet-our-team .reviews .testimonial .reviews-content {
+  justify-content: center;
+  vertical-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 390px) {
+  .meet-our-team .reviews .testimonial .reviews-content {
+    border: 1px solid #191919;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .reviews .testimonial .reviews-content {
+    border: none;
+  }
+}
+.meet-our-team .reviews .testimonial .reviews-content p {
+  margin-top: 20px;
+}
+.meet-our-team .reviews .testimonial .reviews-content .reviews-person {
+  display: flex;
+  padding-top: 30px;
+}
+@media (min-width: 390px) {
+  .meet-our-team .reviews .testimonial .reviews-content .reviews-person {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .reviews .testimonial .reviews-content .reviews-person {
+    padding-top: 30px;
+  }
+}
+.meet-our-team .reviews .testimonial .reviews-content .reviews-person .reviews-person-text {
+  margin-left: 20px;
+}
+.meet-our-team .reviews .testimonial .reviews-content .reviews-person .reviews-person-text h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #191919;
+  margin-bottom: -15px;
+  margin-top: 10px;
+}
+.meet-our-team .reviews .testimonial .reviews-content .reviews-person .reviews-person-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F94D1C;
+}
+.meet-our-team .reviews .all-reviews {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 390px) {
+  .meet-our-team .reviews .all-reviews {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .reviews .all-reviews {
+    padding-top: 100px;
+  }
+}
+.meet-our-team .reviews .all-reviews .btn-all-reviews {
+  background-color: #191919;
+  padding: 12px 40px;
+  color: white;
+  border: 1px solid #191919;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.meet-our-team .reviews .all-reviews .btn-all-reviews i {
+  margin-left: 10px;
+}
+.meet-our-team .reviews .all-reviews .btn-all-reviews:hover {
+  background-color: #F9D783;
+  color: #191919;
+  border: 1px solid #F9D783;
+  transition: 0.3s;
+}

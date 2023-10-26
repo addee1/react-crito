@@ -1,0 +1,389 @@
+// CSS - meet our team klar //
+.meet-our-team{
+    background-color: #F0D082;
+    padding-bottom: 200px;
+
+
+    @media (min-width: 390px) {
+        padding-bottom: 0px;
+           
+    }
+
+
+    @media (min-width: 1200px) {
+        padding-bottom: 200px;
+          
+    }
+    
+
+    .container{
+        padding-top: 100px;
+        
+
+        .content-meet-our-team{
+            
+
+            .dots{
+                display:flex;
+                justify-content: center;
+                padding-top: 50px;
+                cursor: pointer;
+
+
+                @media (min-width: 390px) {
+                    display: none;
+                      
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    display: flex;
+                      
+                }
+            }
+            
+
+            h2{
+                color:#F94D1C;
+                font-family: "Inter", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+
+
+                @media (min-width: 390px) {
+                    text-align: center;
+                      
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    text-align: left;
+                    
+                }
+            }
+
+
+            .content2-meet-our-team{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+
+
+                @media (min-width: 390px) {
+                    display:block;
+                    text-align: center;
+                       
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    display:flex;
+                    text-align: left;
+                    
+                }
+
+
+                h1{
+                    color: #191919;
+                    font-family: "DM Sans",sans-serif;
+                    font-size: 45px;
+                    font-weight: 700;
+
+
+                    @media (min-width: 390px) {
+                        padding-bottom: 30px;
+                         
+                    }
+                
+                
+                    @media (min-width: 1200px) {
+                        padding-bottom: 0;
+                        
+                    } 
+                }
+
+                
+                .btn-browse-team{
+                    padding: 12px 35px;
+                    background-color: #F9D783;
+                    border: 1px solid #191919;
+                    text-decoration: none;
+                    color: #191919;
+                    border-radius: 30px;
+
+
+                    i{
+                        margin-left: 10px;
+                    }
+
+
+                    &:hover{
+                        background-color: #191919;
+                        border: 1px solid #191919;
+                        color: white;
+                        transition: 0.3s;
+
+                    }
+                }
+            }
+           
+
+            .team{
+                padding-top: 100px;
+                display: flex;
+                gap: 20px;
+
+
+                @media (min-width: 390px) {
+                    display:block;
+                    padding-left: 10px;
+                    padding-right: 10px;  
+                      
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    display: flex;
+                    padding-left: 0;
+                    padding-right: 0;
+                    
+                }
+                
+                
+                .team-1{
+                    
+
+                    img{
+                        height: 360px;
+
+
+                        @media (min-width: 390px) {
+                            height: 460px;
+                               
+                        }
+                    
+                    
+                        @media (min-width: 1200px) {
+                            height: 360px;
+                            
+                        }
+                    }
+
+
+                    h2{
+                        color: #191919;
+                        margin-top: 25px;
+                        font-family: "DM Sans",sans-serif;
+                        font-size: 22px;
+                        font-weight: 700;
+                    }
+
+
+                    p{
+                        font-family: "Inter",sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #595039;
+
+
+                        @media (min-width: 390px) {
+                            text-align: center;
+                                
+                        }
+                    
+                    
+                        @media (min-width: 1200px) {
+                            text-align: left;
+ 
+                        } 
+                    }
+                }
+            }  
+        }
+    }
+
+
+    .reviews{
+        margin-top: 100px;
+        background-color: white;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-bottom: 100px;
+
+
+        @media (min-width: 390px) {
+            margin-left: 0px;
+            margin-right: 0px;
+                
+        }
+    
+    
+        @media (min-width: 1200px) {
+            margin-left: 200px;
+            margin-right: 200px;
+            
+        }
+        
+
+        .content{
+            padding-top: 100px;
+            text-align: center;
+
+
+            h2{
+                color:#F94D1C;
+                font-family: "Inter", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                
+            }
+
+
+            h1{
+                color: #191919;
+                font-family: "DM Sans",sans-serif;
+                font-size: 45px;
+                font-weight: 700;
+                margin-top: 20px;
+
+            }
+        }
+
+
+        .testimonial{
+            display: flex;
+            padding-top: 50px;
+            justify-content: center;
+            background-color: white;
+
+
+            @media (min-width: 390px) {
+                display: block;
+                      
+            }
+        
+        
+            @media (min-width: 1200px) {
+                display: flex;
+                justify-content: center;
+                 
+            }
+
+
+            .reviews-content{
+                justify-content: center;
+                vertical-align: center;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+
+                @media (min-width: 390px) {
+                    border: 1px solid #191919;
+                    
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    border: none;
+                    
+                }
+                
+
+                p{
+                    margin-top: 20px;
+                }
+    
+    
+                .reviews-person{
+                    display:flex;
+                    padding-top: 30px;
+
+
+                    @media (min-width: 390px) {
+                        padding-top: 10px;
+                        
+                    }
+                
+                
+                    @media (min-width: 1200px) {
+                        padding-top: 30px;
+                      
+                    }
+
+
+                    .reviews-person-text{
+                        margin-left: 20px;
+                        
+    
+                        h1{
+                            font-family: "DM Sans",sans-serif;
+                            font-size: 22px;
+                            font-weight: 700;
+                            color: #191919;
+                            margin-bottom: -15px;
+                            margin-top: 10px;
+                            
+                        }
+    
+    
+                        p{
+                            font-family: "Inter",sans-serif;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #F94D1C;
+    
+                        }
+
+                    }
+                    
+                }
+    
+            }
+
+        }
+        
+        .all-reviews{
+            padding-top: 100px;
+            padding-bottom: 50px;
+            display:flex;
+            justify-content: center;
+
+
+            @media (min-width: 390px) {
+                padding-top: 50px;
+                 
+            }
+        
+        
+            @media (min-width: 1200px) {
+                padding-top: 100px;
+                 
+            }
+
+
+            .btn-all-reviews{
+                background-color: #191919;
+                padding: 12px 40px;
+                color: white;
+                border: 1px solid #191919;
+                border-radius: 30px;
+                text-decoration: none;
+
+                
+                i{
+                    margin-left: 10px;
+                }
+
+
+                &:hover{
+                    background-color: #F9D783;
+                    color: #191919;
+                    border: 1px solid #F9D783;
+                    transition: 0.3s;
+
+                }
+            }
+        }
+    }
+}
