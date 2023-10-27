@@ -6,7 +6,7 @@ const ProjectBox = ({title, img}) => {
         <img src={img}/>
         <p>{title}</p>
         <div className="project-button">
-            <a className="btn-read-more" href="#">Read More<i className="fa-solid fa-location-arrow"></i></a>
+            <a className="btn-read-more" href="*">Read More<i className="fa-solid fa-location-arrow"></i></a>
         </div>
     </div>
   )

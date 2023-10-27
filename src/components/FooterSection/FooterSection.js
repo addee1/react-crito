@@ -15,40 +15,40 @@ const FooterSection = () => {
             </div>
             <div className="info-footer">
                 <h1>Company</h1>
-                <a href="#">About</a>
-                <a href="#">Features</a>
-                <a href="#">Works</a>
-                <a href="#">Career</a>
+                <a href="*">About</a>
+                <a href="*">Features</a>
+                <a href="*">Works</a>
+                <a href="*">Career</a>
             </div>
             <div className="info-footer">
                 <h1>Help</h1>
-                <a href="#">Customer support</a>
-                <a href="#">Delivery Details</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
+                <a href="*">Customer support</a>
+                <a href="*">Delivery Details</a>
+                <a href="*">Terms & Conditions</a>
+                <a href="*">Privacy Policy</a>
             </div>
             <div className="info-footer">
                 <h1>Resources</h1>
-                <a href="#">Free eBooks</a>
-                <a href="#">Development Tutorial</a>
-                <a href="#">How to - Blog</a>
-                <a href="#">Youtube Playlist</a>
+                <a href="*">Free eBooks</a>
+                <a href="*">Development Tutorial</a>
+                <a href="*">How to - Blog</a>
+                <a href="*">Youtube Playlist</a>
             </div>
             <div className="info-footer">
                 <h1>Link</h1>
-                <a href="#">Free eBooks</a>
-                <a href="#">Development Tutorial</a>
-                <a href="#">How to - Blog</a>
-                <a href="#">Youtube Playlist</a>
+                <a href="*">Free eBooks</a>
+                <a href="*">Development Tutorial</a>
+                <a href="*">How to - Blog</a>
+                <a href="*">Youtube Playlist</a>
             </div>
         </div>
         <div className="second-footer">
             <p>© 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
             <div className="social-media-footer">
-                <a href="#" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                <a href="#" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
-                <a href="#" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                <a href="#" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="*" target="_blank"><i className="fa-brands fa-facebook"></i></a>
+                <a href="*" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
+                <a href="*" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                <a href="*" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     </footer>

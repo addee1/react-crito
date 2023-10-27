@@ -20,7 +20,7 @@ const ProjectAndCaseSection = () => {
                 <ProjectBox title="Business Insights is a important piece of your business" img={image4}/>
             </div>
             <div className="all-projects-button">
-                <a className="btn-all-recent-projects" href="#">All Recent Projects<i className="fa-solid fa-location-arrow"></i></a>
+                <a className="btn-all-recent-projects" href="*">All Recent Projects<i className="fa-solid fa-location-arrow"></i></a>
             </div>
         </div>
     </section>

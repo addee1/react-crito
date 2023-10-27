@@ -10,7 +10,7 @@ const FeatureSection = () => {
                 <div className="features-box">
                     <h2>Features</h2>
                     <h1>Our Accounting is<br/>trusted by thousand<br/>of companies</h1>
-                    <a className="btn-features" href="#">Learn More<i className="fa-solid fa-location-arrow"></i></a>
+                    <a className="btn-features" href="*">Learn More<i className="fa-solid fa-location-arrow"></i></a>
                 </div>
                 <div className="features-box-2">
                     <FeatureBox title="Business Advice" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." icon="fa-regular fa-handshake"/>

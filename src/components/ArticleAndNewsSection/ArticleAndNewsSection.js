@@ -14,7 +14,7 @@ const ArticleAndNewsSection = () => {
             <h2>Article & News</h2>
             <div className="content-article-news">
                 <h1>Get Every Single Articles & News</h1>
-                <a className="btn-browse-articles" href="#">Browse Articles<i className="fa-solid fa-location-arrow"></i></a>
+                <a className="btn-browse-articles" href="*">Browse Articles<i className="fa-solid fa-location-arrow"></i></a>
             </div>
             <div className="content-articles">
                 <ArticleBox img={articleImage1} day="25" month="Mar" description="How To Use Digitalization In The Classroom" />

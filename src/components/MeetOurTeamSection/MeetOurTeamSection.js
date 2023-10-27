@@ -22,7 +22,7 @@ const MeetOurTeamSection = () => {
                 <h2>Meet Our Team</h2>
                 <div className="content2-meet-our-team">
                     <h1>Experience Team Members</h1>
-                    <a className="btn-browse-team" href="#">Browse Team<i className="fa-solid fa-location-arrow"></i></a>
+                    <a className="btn-browse-team" href="*">Browse Team<i className="fa-solid fa-location-arrow"></i></a>
                 </div>
                 <div className="team">
                     <TeamBox title="Kristine Palmer" description="Chef Operation Officer" img={Kristine}/>
@@ -46,7 +46,7 @@ const MeetOurTeamSection = () => {
                 <ReviewBox avatar={Jack} name="Jack McDogglas" jobtitle="Key Account Manager, Gobona" />
             </div>
             <div className="all-reviews">
-                <a className="btn-all-reviews" href="#">All Reviews<i className="fa-solid fa-location-arrow"></i></a>    
+                <a className="btn-all-reviews" href="*">All Reviews<i className="fa-solid fa-location-arrow"></i></a>    
             </div>
         </div>
     </section>

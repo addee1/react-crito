@@ -18,7 +18,7 @@ const ServiceSection = () => {
                 <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." icon="fa-solid fa-arrow-right"/>
             </div>
             <div className="btn-services-content">
-                <a className="btn-services" href="#">Learn More<i className="fa-solid fa-location-arrow"></i></a>
+                <a className="btn-services" href="*">Learn More<i className="fa-solid fa-location-arrow"></i></a>
             </div>
         </div>
     </section>

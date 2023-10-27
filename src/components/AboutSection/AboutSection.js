@@ -20,7 +20,7 @@ const AboutSection = () => {
                 <h1>We Are Business Consulting & Credit Repair Experts</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.<br/><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p>
                 <div className="button-content">
-                    <a className="btn-about" href="#">Learn More<i className="fa-solid fa-location-arrow"></i></a>
+                    <a className="btn-about" href="*">Learn More<i className="fa-solid fa-location-arrow"></i></a>
                     <img src={playButton}/>
                     <h3>Intro Video</h3>
                 </div>  
