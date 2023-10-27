@@ -1,0 +1,56 @@
+.contact-us {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.contact-us .container-box {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 390px) {
+  .contact-us .container-box {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-us .container-box {
+    display: flex;
+  }
+}
+.contact-us .container-box .contact-us-box {
+  display: flex;
+  border: 1px solid #D1D1D1;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+@media (min-width: 390px) {
+  .contact-us .container-box .contact-us-box {
+    padding-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-us .container-box .contact-us-box {
+    padding-right: 100px;
+  }
+}
+.contact-us .container-box .contact-us-box img {
+  margin-top: -50px;
+}
+.contact-us .container-box .contact-us-box .contact-text {
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.contact-us .container-box .contact-us-box .contact-text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact-us .container-box .contact-us-box .contact-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #474747;
+}

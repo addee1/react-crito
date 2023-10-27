@@ -1,0 +1,174 @@
+// CSS - Message us //
+.message-us{
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: white;
+
+
+    @media (min-width: 390px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    @media (min-width: 1200px) {
+        padding-left: 300px;
+        padding-right: 300px;
+          
+    }
+    
+
+    .container-message-us{
+        padding-top: 150px;
+        background-color: #F0EFE9;
+        text-align: center;
+
+        @media (min-width: 390px) {
+            padding-top: 50px;
+            
+        }
+    
+    
+        @media (min-width: 1200px) {
+            padding-top: 150px;
+            
+        }
+
+
+        h1{
+            font-family: "DM Sans",sans-serif;
+            font-size: 45px;
+            font-weight: 700;
+
+
+            @media (min-width: 390px) {
+                font-size: 30px;
+                
+            }
+        
+        
+            @media (min-width: 1200px) {
+                font-size: 45px;
+                  
+            }
+        }
+
+
+        .form{
+            padding-top: 30px;
+            padding-bottom: 100px;
+
+
+            .input-field{
+                margin-top: 20px;
+               
+
+                .name-input{
+                    width: 1000px;
+                    height: 55px;
+                    border: none;
+                    border-radius: 30px;
+                    padding-left: 40px;
+
+
+                    @media (min-width: 390px) {
+                        width: 90%;
+                        
+                    }
+                
+                
+                    @media (min-width: 1200px) {
+                        width: 1000px;
+                            
+                    }
+                }
+
+
+                .mail-input{
+                    width: 1000px;
+                    height: 55px;
+                    border: none;
+                    border-radius: 30px;
+                    padding-left: 40px;
+
+
+                    @media (min-width: 390px) {
+                        width: 90%;
+                        
+                    }
+                
+                
+                    @media (min-width: 1200px) {
+                        width: 1000px;
+                            
+                    }
+                }
+
+
+                .message-input{
+                    width: 1000px;
+                    padding-bottom: 160px;
+                    border: none;
+                    border-radius: 30px;
+                    padding-left: 40px;
+                    padding-top: 20px;
+
+
+                    @media (min-width: 390px) {
+                        width: 90%;
+                        
+                    }
+                
+                
+                    @media (min-width: 1200px) {
+                        width: 1000px;
+                            
+                    }
+                }
+
+
+                .message-input::placeholder{
+                    top: 20px;
+                    position: absolute;
+                }
+            }      
+       
+       
+            .btn-send-message{
+                margin-top: 50px;
+                padding: 12px 22px;
+                background-color: #F9D783;
+                border: 1px solid #F9D783;
+                border-radius: 30px;
+                width: 1000px;
+                color: #191919;
+
+
+                @media (min-width: 390px) {
+                    width: 90%;
+                    
+                }
+            
+            
+                @media (min-width: 1200px) {
+                    width: 1000px;
+                        
+                }
+
+
+                i{
+                    margin-left: 10px;
+                }
+
+
+                &:hover{
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color: white;
+                    transition: 0.3s;
+
+                }
+            }
+        }
+    }
+}

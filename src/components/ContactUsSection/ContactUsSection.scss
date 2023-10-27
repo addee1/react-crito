@@ -1,0 +1,73 @@
+// CSS - Contact us //
+.contact-us{
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+
+    .container-box{
+        display: flex;
+        justify-content: center;
+
+
+        @media (min-width: 390px) {
+            display: block;
+        }
+    
+    
+        @media (min-width: 1200px) {
+            display: flex;
+            
+        }
+
+
+        .contact-us-box{
+            display: flex;
+            border: 1px solid #D1D1D1;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-right: 100px;
+            padding-left: 50px;
+
+
+            @media (min-width: 390px) {
+                padding-right: 10px;
+                
+            }
+        
+        
+            @media (min-width: 1200px) {
+                padding-right: 100px;
+                   
+            }
+            
+
+            img{
+                margin-top: -50px;
+            }
+
+
+            .contact-text{
+                margin-left: 20px;
+                padding-top: 50px;
+                padding-bottom: 40px;
+                
+
+                h2{
+                    font-family: "DM Sans",sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                    
+                }
+
+
+                p{
+                    font-family: "Inter",sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                    color: #474747;
+                }
+            }
+        }
+    }
+}

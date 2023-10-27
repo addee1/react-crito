@@ -1,0 +1,23 @@
+.map {
+  padding-top: 100px;
+}
+@media (min-width: 390px) {
+  .map {
+    padding-top: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .map {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 390px) {
+  .map img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .map img {
+    width: 100%;
+  }
+}
