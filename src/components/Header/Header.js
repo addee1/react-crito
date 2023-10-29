@@ -1,5 +1,6 @@
 import './Header.css'
 import React from 'react'
+import { NavLink, Link } from 'react-router-dom'
 
 import logo from '../../assets/images/Logo.svg'
 
@@ -8,7 +9,7 @@ const Header = () => {
   return (
     <header>
         <div className="container">
-            <a href="/"><img className="logo" src={logo} alt="crito logotype" /></a>
+            <Link to="/"><img className="logo" src={logo} alt="crito logotype" /></Link>
             <button className="menu-bars"><i className="fa-solid fa-bars"></i></button>
             <div className="menu">
                 <div className="top-menu">
@@ -35,10 +36,10 @@ const Header = () => {
                 </div>
                 <div className="main-menu">
                     <nav>
-                        <a href="/">Home</a>
-                        <a href="*">Service</a>
-                        <a href="*">News</a>
-                        <a href="contact">Contact</a>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to= "*">Service</NavLink>
+                        <NavLink to="*">News</NavLink>
+                        <NavLink to="/contact">Contact</NavLink>
                     </nav>
                     <a className="btn-yellow" href="*">Login <i className="fa-solid fa-location-arrow"></i></a>
                 </div>
