@@ -100,6 +100,7 @@ const MessageUs = () => {
                     type="text"
                     name="name"
                     value={name}
+                    placeholder="Name"
                     onChange={(e) => handleChange(e)}
                     />
                 </div>
@@ -111,6 +112,7 @@ const MessageUs = () => {
                     type="text"
                     name="email"
                     value={email}
+                    placeholder="Email"
                     onChange={(e) => handleChange(e)}
                     />
                 </div>
@@ -122,6 +124,7 @@ const MessageUs = () => {
                     type="text"
                     name="message"
                     value={message}
+                    placeholder="Message"
                     onChange={(e) => handleChange(e)}
                     />
                 </div>
