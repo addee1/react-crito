@@ -49,8 +49,22 @@
   padding-top: 30px;
   padding-bottom: 100px;
 }
+.message-us .container-message-us .form .error {
+  color: red;
+}
+.message-us .container-message-us .form .errorMessage {
+  color: red;
+  font-size: 16px;
+}
 .message-us .container-message-us .form .input-field {
   margin-top: 20px;
+  padding-bottom: 20px;
+}
+.message-us .container-message-us .form .input-field label {
+  display: block;
+  text-align: left;
+  margin-left: 170px;
+  font-weight: 500;
 }
 .message-us .container-message-us .form .input-field .name-input {
   width: 1000px;
